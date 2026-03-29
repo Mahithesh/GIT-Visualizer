@@ -1,0 +1,121 @@
+.repo-details-card {
+  border: 1px solid #1f416d;
+  border-radius: 12px;
+  background: #1b2a47;
+  padding: 24px;
+}
+
+.repo-details-title {
+  margin: 0 0 10px;
+  color: #3b82f6;
+  font-size: 42px;
+}
+
+.repo-details-description {
+  margin: 0;
+  color: #c2cfdf;
+  line-height: 1.45;
+}
+
+.repo-details-stats-row {
+  display: flex;
+  gap: 18px;
+  margin: 14px 0 20px;
+}
+
+.repo-details-stat {
+  margin: 0;
+  color: #d0def0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.repo-details-metric-grid {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.metric-box {
+  min-width: 120px;
+  border: 1px solid #52739c;
+  padding: 10px 14px;
+  border-radius: 2px;
+}
+
+.metric-label {
+  margin: 0;
+  color: #dce8f7;
+  font-size: 13px;
+}
+
+.metric-value {
+  margin: 6px 0 0;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.repo-subheading {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.member-count {
+  margin: 12px 0;
+  color: #c3d7f0;
+}
+
+.contributors-list-inline {
+  list-style-type: none;
+  margin: 0 0 24px;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.contributor-inline-item {
+  width: 36px;
+  height: 36px;
+}
+
+.contributor-image-inline {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.contributor-more-badge {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #e5e7eb;
+  color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.language-chart-wrap {
+  width: 100%;
+  min-height: 340px;
+}
+
+@media screen and (max-width: 767px) {
+  .repo-details-title {
+    font-size: 32px;
+  }
+
+  .repo-subheading {
+    font-size: 24px;
+  }
+
+  .repo-details-metric-grid {
+    flex-wrap: wrap;
+  }
+}
