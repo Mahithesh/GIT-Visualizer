@@ -1,5 +1,11 @@
 In this project let's build a **GitHub Profile Visualizer** by applying the concepts we have learned till now. This project allows you to practice the concepts and techniques learned till React Course and apply them in a concrete project.
 
+## Deployment
+
+- The repository includes a GitHub Pages workflow at `.github/workflows/deploy-pages.yml`.
+- Add a repository secret named `REACT_APP_GITHUB_API_KEY` in GitHub before relying on the published site, otherwise API requests in the deployed app will fail.
+- The production site is configured for `https://mahithesh.github.io/GIT-Visualizer`.
+
 You will demonstrate your skills by creating an app that will fetch data from an internal server using a component, displaying that data, **routing** and **context** concepts, and adding responsiveness to the website.
 
 This is an individual assessment. All work must be your own. You can request for the feedback after your project submission in the discussions.
